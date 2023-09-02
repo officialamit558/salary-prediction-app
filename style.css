@@ -72,4 +72,65 @@ body {
   :-ms-input-placeholder {
     color: #999999;
   }
+
+/* Add styles to the body */
+body {
+    background-color: #f2f2f2;
+    font-family: 'Arimo', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the login container */
+.login {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+/* Style the heading */
+h1 {
+    font-family: 'Pacifico', cursive;
+    color: #333;
+}
+
+/* Style the input fields */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Style the submit button */
+button[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Style the submit button on hover */
+button[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+/* Style the prediction text */
+p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #333;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
   
